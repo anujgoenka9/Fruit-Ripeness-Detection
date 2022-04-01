@@ -27,3 +27,7 @@ The model was trained for 5 epochs in two stages and this was the graph obtained
 Our model returned the following result:
 
 ![Fruit Ripeness](https://user-images.githubusercontent.com/62397380/161310731-2eb88126-5403-4647-8f1d-aebe52b2f220.jpg)
+
+## Deployment
+The model was then deployed on raspberry pi 4. The raspbian os does not support tensorflow 2, hence I had to convert the keras model into tensorflow's frozen graph model so that I can read the model using OpenCV's DNN module.
+
