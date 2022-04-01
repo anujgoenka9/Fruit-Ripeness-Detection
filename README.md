@@ -26,6 +26,4 @@ The model was trained for 5 epochs in two stages and this was the graph obtained
 
 Our model returned the following result:
 
-![Picture2](https://user-images.githubusercontent.com/62397380/161310456-9204c69b-1d9e-428d-baf8-92e51f786776.jpg)
-
-
+![Fruit Ripeness](https://user-images.githubusercontent.com/62397380/161310731-2eb88126-5403-4647-8f1d-aebe52b2f220.jpg)
