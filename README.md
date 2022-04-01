@@ -26,5 +26,6 @@ The model was trained for 5 epochs in two stages and this was the graph obtained
 
 Our model returned the following result:
 
-![download](https://user-images.githubusercontent.com/62397380/161310278-b9412fe0-139c-42c2-8ac3-c44e4751a36a.png)
+![Picture2](https://user-images.githubusercontent.com/62397380/161310456-9204c69b-1d9e-428d-baf8-92e51f786776.jpg)
+
 
