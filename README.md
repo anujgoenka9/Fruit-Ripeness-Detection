@@ -20,4 +20,11 @@ Each class has around 110 images to it(following is an example of what the ripe 
 ## Model Building and Training
 I used transfer learning to import the MobileNetv2 model containing weights trained on imagenet dataset. To this base layer of MobileNetV2, we add our global spatial average pooling layer, a fully connected layer and a logistic layer at the end. I used ReLu activation function in all the layers except the last one which is the logistic layer, for which i used a the sigmoid activation function.
 
-The model was trained for 5 epochs and this was the graph obtained:
+The model was trained for 5 epochs in two stages and this was the graph obtained:
+
+![Picture1](https://user-images.githubusercontent.com/62397380/161310069-05783a93-5985-4781-9723-c8351dab3f4c.jpg)
+
+Our model returned the following result:
+
+![download](https://user-images.githubusercontent.com/62397380/161310278-b9412fe0-139c-42c2-8ac3-c44e4751a36a.png)
+
